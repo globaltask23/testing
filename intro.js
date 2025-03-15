@@ -1,6 +1,6 @@
-const studentNames= ["sonia", "daniel", "paul", "chinelo", "voltage"]
-
-function FindStudent(allStudents, StudentNames){
-  allStudents.includes(StudentNames) ? console.log('name found'): console.log("no name found")
+function learningGit(student, courses, timestamp){
+  console.log(`the ${student} chose ${courses} at ${timestamp}`)
 }
-FindStudent(studentNames, "sonia")
+function version2 (name, item){
+  console.log(`this function will output the the name and the item of the logs`)
+}
